@@ -1,6 +1,6 @@
 # Contenido de clase
 Son los apuntes de dinamica de sistemas.
-Soluciones de ecuaciones diferenciales "Transformada de Laplace"
+Para solucionar ecuaciones diferenciales "Transformada de Laplace"
 ## 1. Primer dia de clase
 > *Planta:* Es todo lo fisico que esta epresente en el proceso.
 
@@ -13,6 +13,7 @@ Soluciones de ecuaciones diferenciales "Transformada de Laplace"
 Se usa normalmente para resolver problemas de sistemas y circuitos eléctricos.
 
 ## 2. Segundo dia de clase 
+Recordamos y aprendimos a la descomposicion de fracciones parciales con los 3 casos.
 ### 2.1 Descomposicion de fracciones parciales
 
 ## 3. Tercer dia de clase
