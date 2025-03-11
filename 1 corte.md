@@ -1,5 +1,5 @@
 # Contenido de clase
-Son los apuntes de dinamica de sistemas.
+Son los apuntes de dinamica de sistemas Felipe Cruz Pineda, Angi Vanesa Vargas y Kevin Nicolas Perés Tobar.
 Para solucionar ecuaciones diferenciales "Transformada de Laplace"
 ## 1. Primer dia de clase
 > *Planta:* Es todo lo fisico que esta presente en el proceso.
@@ -41,6 +41,7 @@ Recordamos y aprendimos a la descomposicion de fracciones parciales con los 3 ca
 ## 3. Tercer dia de clase
 Usamos la transformada de laplace para pasar una ecuación diferencial y convertirla en una ecuación algebraica.
 Tener encuenta que necesitamos conocer las condiciones generales debido a que no van hacer las mismas.
+
 💡**Ejemplo 1:**  Si el pendulo arrancade en diferente angulo va a tener diferentes condiciones.
 Las condiciones iniciales son constantes "Numeros"
 
@@ -61,6 +62,6 @@ $0=A+B$,$0=2A+D$,$3=A(5)$
 |       C       |      -6/5        |
 
 📚
-
+𝑥 
 ## 11. Referencias
 https://sga.unemi.edu.ec/media/recursotema/Documento_2020618144651.pdf
