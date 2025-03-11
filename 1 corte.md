@@ -15,10 +15,29 @@ Se usa normalmente para resolver problemas de sistemas y circuitos eléctricos.
 ## 2. Segundo dia de clase 
 Recordamos y aprendimos a la descomposicion de fracciones parciales con los 3 casos.
 ### 2.1 Descomposicion de fracciones parciales
-### 2.2.1 Caso 1
-### 2.2.2 Caso 2
-### 2.2.3 Caso 3
+> 🔑*Caso 1*: Q(s) tiene raíces reales distintas.
+>
+<center>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s+p_1\right)\left(s+p_2\right)+...(s+p_{n)}}\ \ \ \ "><img src="http://www.alciro.org/cgi/tex.cgi?G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s+p_1\right)\left(s+p_2\right)+...(s+p_{n)}}\ \ \ \ " title="G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s+p_1\right)\left(s+p_2\right)+...(s+p_{n)}}\ \ \ \ " border="0" /></a>
+</center>
+>
+> Entonces,
+>
+<center>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}" title="\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}" border="0" /></a>
+</center>
 
+> 🔑*Caso 2*:Que N tiene raices reales repetidos.
+>
+<center>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G(s)=\frac{P(s)}{Q(s)}=\frac{P_{(s)}}{{(s+p)}^n}"><img src="http://www.alciro.org/cgi/tex.cgi?G(s)=\frac{P(s)}{Q(s)}=\frac{P_{(s)}}{{(s+p)}^n}" title="G(s)=\frac{P(s)}{Q(s)}=\frac{P_{(s)}}{{(s+p)}^n}" border="0" /></a>  
+</center>
+>
+
+> 🔑*Caso 3*: Q(s), tiene raices complejas conjugadas.
+<center>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s^2+b_1+c_1\right)\left(s^2+b_s+C_S\right)+\ldots\left(s^2+bnS+Cn\right\}}\ \ \ \ "><img src="http://www.alciro.org/cgi/tex.cgi?G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s^2+b_1+c_1\right)\left(s^2+b_s+C_S\right)+\ldots\left(s^2+bnS+Cn\right\}}\ \ \ \ " title="G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s^2+b_1+c_1\right)\left(s^2+b_s+C_S\right)+\ldots\left(s^2+bnS+Cn\right\}}\ \ \ \ " border="0" /></a>
+</center>
 ## 3. Tercer dia de clase
 Usamos la transformada de laplace para pasar una ecuación diferencial y convertirla en una ecuación algebraica.
 Tener encuenta que necesitamos conocer las condiciones generales debido a que no van hacer las mismas.
