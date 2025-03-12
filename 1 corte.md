@@ -1,5 +1,5 @@
 # Contenido de clase
-Son los apuntes de dinamica de sistemas Felipe Cruz Pineda, Angi Vanesa Vargas y Kevin Nicolas Perés Tobar.
+Son los apuntes de dinamica de sistemas Felipe Cruz Pineda y Angi Vanesa Vargas.
 Para solucionar ecuaciones diferenciales "Transformada de Laplace"
 ## 1. Primer dia de clase
 > *Planta:* Es todo lo fisico que esta presente en el proceso.
@@ -68,7 +68,7 @@ f=ilaplace(F)
 
 
 
-** Resultado :** (4*exp(2*t))/3 - exp(-t)/3 - 1
+** Resultado ejercicio 1 :** (4*exp(2*t))/3 - exp(-t)/3 - 1
 
 📚 **Ejercicio 2:** $F=(s-2)/((2s-1)^2*(s-1))$
 💡**Código 2:**
@@ -85,6 +85,9 @@ f=ilaplace(F)
 |       B       |        3         |
 |       C       |        -1        |
 
+>> >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_2_page-0001.jpg))
+
+** Resultado ejercicio 2 :**exp(t/2) - exp(t) + (3*t*exp(t/2))/4
 
 📚 **Ejercicio 3:** $F=(2s-3)/(s^3+s)$
 ```
@@ -100,10 +103,11 @@ f=ilaplace(F)
 |       B       |        2         |
 |       C       |        -3        |
 
+>> >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_3_page-0001.jpg))
 
+** Resultado ejercicio 3 :** 3*cos(t) + 2*sin(t) - 3
 
-
-## 3. Tercer dia de clase
+## 3. Tercer día de clase
 Aprendimos a la descomposicion de fracciones parciales con los 3 casos. También se comprendio que es muy importandte el discriminante lo importante sobre las soluciones, debido a la clasificación de las soluciones de la ecuación cuadrática de la siguiente manera:
 
 Si el discriminante, $d>0$, habrá dos soluciones distintas.
@@ -124,6 +128,7 @@ Si el discriminante, $d<0$, no hay soluciones reales, pero sí hay soluciones co
 </a>
 </center>
 
+
 🔑*Caso 3*: Raíces complejas conjugadas
 <center>
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{P\left(s\right)}{(s^2 + b_1 s + c_2)(s - r)}=\frac{A s + B}{(s^2 + b_1 s + c_2)}+\frac{C}{(s - r)}">
@@ -131,20 +136,37 @@ Si el discriminante, $d<0$, no hay soluciones reales, pero sí hay soluciones co
 </a>
 </center>
 
-# Función para descomponer en fracciones parciales
 
 
+## 4. Cuarto día de clase
 Usamos la transformada de laplace para pasar una ecuación diferencial y convertirla en una ecuación algebraica.
-Tener encuenta que necesitamos conocer las condiciones generales debido a que no van hacer las mismas.
+Tener encuenta que necesitamos conocer las condiciones generales debido a que pueden ser las mismas o no.
+Transformada de una funcion "Esto lo vimos el primer dia pero la explicación fue en esta clase ":
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L\left\{ f(t) \right\}"><img src="http://www.alciro.org/cgi/tex.cgi?L\left\{ f(t) \right\}" title="L\left\{ f(t) \right\}" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L\left\{ f'(t) \right\}=sF(S)-f(0)"><img src="http://www.alciro.org/cgi/tex.cgi?L\left\{ f'(t) \right\}=sF(S)-f(0)" title="L\left\{ f'(t) \right\}=sF(S)-f(0)" border="0" /></a>
+
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L\left\{ f^{(2)}(t) \right\}=s^2F(S)-f(0)-f'(0)"><img src="http://www.alciro.org/cgi/tex.cgi?L\left\{ f^{(2)}(t) \right\}=s^2F(S)-f(0)-f'(0)" title="L\left\{ f^{(2)}(t) \right\}=s^2F(S)-f(0)-f'(0)" border="0" /></a>
+
+
+
+
+
+
+
+
 
 💡**Ejemplo 1:**  Si el pendulo arrancade en diferente angulo va a tener diferentes condiciones.
 Las condiciones iniciales son constantes "Numeros"
 
-💡**Ejemplo 2:** Ejercicio de La transformada de laplace $x"+2x'+5x$ con condiciones iniciales x=0 ,x'=0
+💡**Ejemplo 2:** Ejercicio de La transformada de laplace $x"+2x'+5x$ con condiciones iniciales x=0 ,x'=0.
 $s^2(X(s))+2s((X(s))+5X(s)=3/s$, tener cuidado debido a que toca hacer la transformada a ambos lados de la ecuacion sin olvidar se de $3$ que es 3/s.
 
 Se van a obtener terminos semejantes de X(s) y si esta multiplicando pasa a dividir como en este ejercicio. 
-$X(s)=3/s(s^2+2s+5)=A/s+((Bs+D)/(s^2+2s+5))$
+
+
+
 
 Toca resolverlo con caso 1 y caso 2 de descomposicion de descomposición de fracciones parciales.
 Al aplicar fracciones parciales aparece un sistema de ecuaciones de 3 ecuaciones y 3 incognitas
@@ -158,6 +180,10 @@ $3=A(5)$
 |       A       |      3/5         |
 |       B       |     -3/5         |
 |       C       |      -6/5        |
+
+>> >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_4.1_page-0001.jpg))
+
+** Resultado del ejemplo :**  3/5 - (3*exp(-t)*(cos(2*t) + sin(2*t)/2))/5
 
 
 📚
