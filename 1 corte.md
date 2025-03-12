@@ -37,11 +37,6 @@ Recordamos y aprendimos a la descomposicion de fracciones parciales con los 3 ca
 </a>
 </center>
 
-
-
-
-
-
 > 🔑*Caso 3*: Q(s), tiene raices complejas conjugadas.
 <center>
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_1)^2}+\dots+\frac{A_k}{(s-p_1)^k}+\frac{A_{k+1}}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}">
@@ -49,16 +44,71 @@ Recordamos y aprendimos a la descomposicion de fracciones parciales con los 3 ca
 </a>
 </center>
 
+📚 **Ejercicio 1:** $F=(3s+2)/(s(s+1)*(s-2))$
+
+💡**Código 1:**
+```
+syms s t
+F=(3s+2)/(s(s+1)*(s-2))
+pretty(F)
+f=ilaplace(F)
+
+```
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |       -1         |
+|       B       |       4/3        |
+|       C       |       −1/3       |
+
+** Resultado :** (4*exp(2*t))/3 - exp(-t)/3 - 1
+
+📚 **Ejercicio 2:** $F=(s-2)/((2s-1)^2*(s-1))$
+💡**Código 2:**
+```
+syms s t
+F=(s-2)/((2*s-1)^2*(s-1))
+pretty(F)
+f=ilaplace(F)
+
+```
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |        2         |
+|       B       |        3         |
+|       C       |        -1        |
+
+
+📚 **Ejercicio 3:** $F=(2s-3)/(s^3+s)$
+```
+syms s t
+F=(2*s-3)/(s^3+s)
+pretty(F)
+f=ilaplace(F)
+
+```
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |        3         |
+|       B       |        2         |
+|       C       |        -3        |
+
+
+
 
 ## 3. Tercer dia de clase
+Aprendimos a la descomposicion de fracciones parciales con los 3 casos. También se comprendio que es muy importandte el discriminante lo importante sobre las soluciones, debido a la clasificación de las soluciones de la ecuación cuadrática de la siguiente manera:
 
-### 3.1. Raíces reales diferentes
+Si el discriminante, $d>0$, habrá dos soluciones distintas.
+Si el discriminante, $d=0$, habrá una sola solución.
+Si el discriminante, $d<0$, no hay soluciones reales, pero sí hay soluciones compleja.
+
+🔑*Caso 1*: Raíces reales diferentes
 
 <center>
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G\left(s\right)=\frac{P\left(s\right)}{(s^2 + b_1 s + c_1)(s^2 + b_2 s + c_2)}"><img src="http://www.alciro.org/cgi/tex.cgi?G\left(s\right)=\frac{P\left(s\right)}{(s^2 + b_1 s + c_1)(s^2 + b_2 s + c_2)}" title="G\left(s\right)=\frac{P\left(s\right)}{(s^2 + b_1 s + c_1)(s^2 + b_2 s + c_2)}" border="0" /></a>
 </center>
 
-### 3.2. Raíces complejas conjugadas con un factor adicional
+🔑*Caso 2*: Raíces reales iguales
 
 <center>
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{P\left(s\right)}{(s-b_1)^k\left(s-b_2\right)\dots\left(s-b_n\right)}=\frac{A_1}{(s-b_1)}+\frac{A_2}{(s-b_1)^2}+\dots+\frac{A_k}{(s-b_1)^k}+\frac{A_{k+1}}{(s-b_2)}+\dots+\frac{A_n}{(s-b_n)}">
@@ -66,19 +116,12 @@ Recordamos y aprendimos a la descomposicion de fracciones parciales con los 3 ca
 </a>
 </center>
 
-
-### 3.3. Raíces complejas conjugadas y raíces reales
-
+🔑*Caso 3*: Raíces complejas conjugadas
 <center>
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{P\left(s\right)}{(s^2 + b_1 s + c_2)(s - r)}=\frac{A s + B}{(s^2 + b_1 s + c_2)}+\frac{C}{(s - r)}">
 <img src="http://www.alciro.org/cgi/tex.cgi?\frac{P\left(s\right)}{(s^2 + b_1 s + c_2)(s - r)}=\frac{A s + B}{(s^2 + b_1 s + c_2)}+\frac{C}{(s - r)}" title="\frac{P\left(s\right)}{(s^2 + b_1 s + c_2)(s - r)}=\frac{A s + B}{(s^2 + b_1 s + c_2)}+\frac{C}{(s - r)}" border="0" />
 </a>
 </center>
-
-
-
-
-
 
 # Función para descomponer en fracciones parciales
 
@@ -97,13 +140,17 @@ $X(s)=3/s(s^2+2s+5)=A/s+((Bs+D)/(s^2+2s+5))$
 
 Toca resolverlo con caso 1 y caso 2 de descomposicion de descomposición de fracciones parciales.
 Al aplicar fracciones parciales aparece un sistema de ecuaciones de 3 ecuaciones y 3 incognitas
-$0=A+B$,$0=2A+D$,$3=A(5)$
+
+$0=A+B$,
+$0=2A+D$,
+$3=A(5)$
 
 | **Incógnita** | ** Resultado **  |
 |---------------|------------------|
 |       A       |      3/5         |
 |       B       |     -3/5         |
 |       C       |      -6/5        |
+
 
 📚
 𝑥 
