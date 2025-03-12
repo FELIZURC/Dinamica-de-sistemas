@@ -60,6 +60,14 @@ f=ilaplace(F)
 |       B       |       4/3        |
 |       C       |       −1/3       |
 
+
+>> >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_1_github_page-0001.jpg))
+
+>> >![](   ))
+
+
+
+
 ** Resultado :** (4*exp(2*t))/3 - exp(-t)/3 - 1
 
 📚 **Ejercicio 2:** $F=(s-2)/((2s-1)^2*(s-1))$
