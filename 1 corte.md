@@ -63,11 +63,6 @@ f=ilaplace(F)
 
 >> >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_1_github_page-0001.jpg))
 
->> >![](   ))
-
-
-
-
 ** Resultado ejercicio 1 :** (4*exp(2*t))/3 - exp(-t)/3 - 1
 
 📚 **Ejercicio 2:** $F=(s-2)/((2s-1)^2*(s-1))$
@@ -149,14 +144,6 @@ Transformada de una funcion "Esto lo vimos el primer dia pero la explicación fu
 
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=L\left\{ f^{(2)}(t) \right\}=s^2F(S)-f(0)-f'(0)"><img src="http://www.alciro.org/cgi/tex.cgi?L\left\{ f^{(2)}(t) \right\}=s^2F(S)-f(0)-f'(0)" title="L\left\{ f^{(2)}(t) \right\}=s^2F(S)-f(0)-f'(0)" border="0" /></a>
 
-
-
-
-
-
-
-
-
 💡**Ejemplo 1:**  Si el pendulo arrancade en diferente angulo va a tener diferentes condiciones.
 Las condiciones iniciales son constantes "Numeros"
 
@@ -165,15 +152,12 @@ $s^2(X(s))+2s((X(s))+5X(s)=3/s$, tener cuidado debido a que toca hacer la transf
 
 Se van a obtener terminos semejantes de X(s) y si esta multiplicando pasa a dividir como en este ejercicio. 
 
-
-
-
 Toca resolverlo con caso 1 y caso 2 de descomposicion de descomposición de fracciones parciales.
 Al aplicar fracciones parciales aparece un sistema de ecuaciones de 3 ecuaciones y 3 incognitas
 
 $0=A+B$,
 $0=2A+D$,
-$3=A(5)$
+$3=A(5)$,
 
 | **Incógnita** | ** Resultado **  |
 |---------------|------------------|
