@@ -189,12 +189,36 @@ $3=A(5)$,
 |       B       |     -3/5         |
 |       C       |      -6/5        |
 
->> >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_4.1_page-0001.jpg))
+>![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_4.1_page-0001.jpg))
+>![]())
+![]())
 
 ** Resultado del ejemplo :**  3/5 - (3*exp(-t)*(cos(2*t) + sin(2*t)/2))/5
 
+https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_7.1_page-0001.jpg
+## 5. Quinto día de clase
+Hicimos un ejercicio de transformada inversa de la función
+📚F=(2*s-3)/((s+2)*(s^2+s-2)*(s^2+6*s+10)*(s^2+8*s+17))
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |      1/3978      |
+|       B       |     7/30         |
+|       C       |      -92/225     |
+|       d       |      7/34        |
+|       e       |    -1/17         |
+|       f       |      -6/5        |
+|       g       |      -207/130    |
 
-📚
-𝑥 
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_7.1_page-0001.jpg))
+
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.40.56%20PM.jpeg))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.41.24%20PM.jpeg))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.42.06%20PM.jpeg))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.42.22%20PM.jpeg))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.42.43%20PM.jpeg))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/WhatsApp%20Image%202025-03-11%20at%2010.43.01%20PM.jpeg))
+** Resultado del ejemplo :** (7*t*exp(-2*t))/30 - exp(t)/3978 - (92*exp(-2*t))/225 + (4*exp(-3*t)*(cos(t) + (15*sin(t))/8))/17 + (113*exp(-4*t)*(cos(t) - (59*sin(t))/113))/650
+Este ejercicio me da un poco diferente.
+
 ## 11. Referencias
 https://sga.unemi.edu.ec/media/recursotema/Documento_2020618144651.pdf
