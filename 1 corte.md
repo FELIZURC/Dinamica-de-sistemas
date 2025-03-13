@@ -23,6 +23,7 @@ Básicamente, se nos indica que un sistema es un conjunto de pautas y reglas que
 >🔑*Sistema dinámico:* Un sistema se llama dinámico si su salida en el presente depende de una entrada en el pasado.
 También, si su salida en curso depende solamente de la entrada en curso, el sistema se conoce como estático.
 
+
 <p align="center">
     <img src="./imagens/Sistema dinamico.PNG" alt="Figura de sistema dinamico" />
 </p>
