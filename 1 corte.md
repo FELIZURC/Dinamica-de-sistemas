@@ -9,8 +9,6 @@ Por otro lado, la segunda parte se centra en hacer un repaso de la transformada 
 ##  1. Definiciones
 >🔑 *Sistemas:* Un sistema es una combinación de componentes que actúan conjuntamente para alcanzar un objetivo específico. La combinación de componentes se puede representar por medio de reglas o principios que relacionan entradas con salidas.
 
-
-
 <p align="center">
     <img src="./imagens/Sistema.PNG" alt="Figura de sistema" />
 </p>
