@@ -11,6 +11,9 @@ Para solucionar ecuaciones diferenciales "Transformada de Laplace"
  
 > *El método de la transformación de Laplace:* es una técnica para resolver ecuaciones diferenciales con condiciones iniciales.
 Se usa normalmente para resolver problemas de sistemas y circuitos eléctricos.
+> 
+>![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Transformadas%20de%20Laplace.png))
+
 
 ## 2. Segundo dia de clase 
 Recordamos y aprendimos a la descomposicion de fracciones parciales con los 3 casos.
@@ -145,10 +148,14 @@ f=ilaplace(F)
 |       B       |      -7/2        |
 |       C       |       -5/2       |
 
->> >![]())
+>![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_5.1_page-0001.jpg))
 
 ** Resultado ejercicio 1:  2*exp(-t) - 6*exp(-2*t) - 8*t*exp(-2*t)
-📚 **Ejercicio 3:** F=(1-s(5+3s)/(s(s+1)^2+1)
+📚 **Ejercicio 3:** F=(3*s+8)/(s^2+2*s+5)
+
+>![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_5.3_page-0001.jpg))
+
+** Resultado ejercicio 3 :** 3*exp(-t)*(cos(2*t) + (5*sin(2*t))/6)
 
 ## 4. Cuarto día de clase
 Usamos la transformada de laplace para pasar una ecuación diferencial y convertirla en una ecuación algebraica.
