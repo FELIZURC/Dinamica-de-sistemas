@@ -189,13 +189,16 @@ $3=A(5)$,
 |       B       |     -3/5         |
 |       C       |      -6/5        |
 
->![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_4.1_page-0001.jpg))
->![]())
-![]())
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_4.1_page-0001.jpg))
+![](https://github.com/FELIZURC/figuras/blob/main/WhatsApp%20Image%202025-03-12%20at%2011.06.28%20PM%20(2).jpeg))
+![](https://github.com/FELIZURC/figuras/blob/main/WhatsApp%20Image%202025-03-12%20at%2011.07.13%20PM%20(1).jpeg))
 
 ** Resultado del ejemplo :**  3/5 - (3*exp(-t)*(cos(2*t) + sin(2*t)/2))/5
+📚F=(2*s-3)/((s+2)*(s^2+s-2)*(s^2+6*s+10)*(s^2+8*s+17))
+![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_7.1_page-0001.jpg))
+📚F=x"+5x'+4x=0 y(0)=1 y'(0)=0
+![](https://github.com/FELIZURC/figuras/blob/main/Figure_4.2_page-0001.jpg))
 
-https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_7.1_page-0001.jpg
 ## 5. Quinto día de clase
 Hicimos un ejercicio de transformada inversa de la función
 📚F=(2*s-3)/((s+2)*(s^2+s-2)*(s^2+6*s+10)*(s^2+8*s+17))
@@ -222,3 +225,4 @@ Este ejercicio me da un poco diferente.
 
 ## 11. Referencias
 https://sga.unemi.edu.ec/media/recursotema/Documento_2020618144651.pdf
+https://platzi.com/tutoriales/1320-ecuaciones/8937-transformada-de-laplace-de-la-derivada-de-una-funcion-pvi-repaso/
