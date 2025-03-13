@@ -131,7 +131,24 @@ Si el discriminante, $d<0$, no hay soluciones reales, pero sí hay soluciones co
 </a>
 </center>
 
+📚 **Ejercicio 3:** $F=(2s-3)/(s^3+s)$
+```
+syms s t
+F=(2*s-3)/(s^3+s)
+pretty(F)
+f=ilaplace(F)
 
+```
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |        1/2       |
+|       B       |      -7/2        |
+|       C       |       -5/2       |
+
+>> >![]())
+
+** Resultado ejercicio 1:  2*exp(-t) - 6*exp(-2*t) - 8*t*exp(-2*t)
+📚 **Ejercicio 3:** F=(1-s(5+3s)/(s(s+1)^2+1)
 
 ## 4. Cuarto día de clase
 Usamos la transformada de laplace para pasar una ecuación diferencial y convertirla en una ecuación algebraica.
